@@ -1,6 +1,3 @@
-@font-face {
-    font-family: Roboto; src: url("../../src/font/Roboto/Roboto-Regular.ttf");
-}
 .footerDiv{
     display: flex;
     height: 285px;
@@ -22,22 +19,18 @@
 }
 .footerContentDiv{
     display: flex;
-    height: 80%;
+    height: 90%;
     width: 20%;
     align-items: center;
     justify-content: space-between;
     align-content: space-evenly;
     flex-wrap: wrap;
-    background-color: orange;
 }
 .footerContentDivTitle{
     display: flex;
     height: 10%;
     width: 100%;
     align-items: center;
-    font-weight: 600;
-    font-size: 20px;
-    font-family: "Roboto", serif;
 }
 .footerContactSection{
     display: flex;
@@ -58,7 +51,6 @@
     width: 60%;
     height: 100%;
     color: #676767;
-    font-size: 16px;
     align-content: center;
     /*justify-content: center;*/
     align-items: center;
@@ -71,11 +63,52 @@
 }
 .footerDagen{
     display: flex;
-    width: 60%;
-    height: 85%;
+    width: 50%;
+    height: 80%;
+    align-items: center;
 }
 .footerTijden {
     display: flex;
-    width: 15%;
-    height: 85%;
+    width: 50%;
+    height: 80%;
+    align-items: center;
+}
+.locatieIframeHolder{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    border: 2px solid #D12628;
+    overflow: hidden;
+}
+.locatieIframe{
+    /*display: flex;*/
+    width: 100%;
+    height: 100%;
+}
+.footerConlusionContainer{
+    display: flex;
+    width: 100%;
+    height: 80%;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.footerConclusionText{
+    display: flex;
+    width: 100%;
+    height: 60%;
+}
+.footerConclusionButton{
+    display: flex;
+    width: 160px;
+    height: 40px;
+    border-radius: 9px;
+    background-color: #D12628;
+    text-decoration: none;
+    text-underline: none;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }

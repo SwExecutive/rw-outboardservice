@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+/*Body font styles*/
+.title{
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.subTitle{
+    font-family: Roboto,sans-serif;
+    font-weight: 500;
+    font-size: 35px;
+}
+.bodyText{
+    font-family: "Neue Haas Grotesk Text Pro",sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+.smallTitle{
+    font-family: Roboto,sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
+.smallBodyText{
+    font-family: "Neue Haas Grotesk Text Pro",sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+/*Header font styles*/
+.headerTitle{}
+.headerSubTitle{}
+.headerBodyText{}
+.headerSmallTitle{}
+.headerSmallBodyText{}
+
+/*Footer font styles*/
+.footerTitle{
+
+}
+.footerSubTitle{}
+.footerBodyText{}
+.footerSmallTitle{}
+.footerSmallBodyText{}
+
+/*Font colors*/
+.rwDarkGrey{
+    color: #676767;
+}
