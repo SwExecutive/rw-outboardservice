@@ -1,0 +1,91 @@
+.navbarDiv{
+    display: flex;
+    height: 96px;
+    width: 100%;
+    /*flex-wrap: wrap;*/
+    background-color: white;
+    background-size: 475px;
+    background-repeat: no-repeat;
+    background-position: left;
+    justify-content: space-between;
+    transition: 0.5s;
+}
+
+.navbarLeftRow{
+    display: flex;
+    height: 100%;
+    width: 40%;
+    margin-left: 22px;
+    background-size: 475px;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.navbarRightRow{
+    display: flex;
+    height: 100%;
+    width: 60%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    color: white;
+    /*clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);*/
+    justify-content: center;
+    align-items: flex-end;
+    padding: 0;
+    margin: 0;
+    background-color: black;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);
+
+}
+
+.navbarRightRowContent{
+    display: flex;
+    height: 100%;
+    width: 90%;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: black;
+    color: white;
+    /*clip-path: polygon(0 0, 100% 0, 100% 100%, 10% 100%);*/
+    justify-content: center;
+    gap: 50px;
+    align-items: center;
+}
+/*.navbarTitleSpace{*/
+/*    margin-right: 130px;*/
+/*}*/
+
+@media screen and (max-width: 1270px) {
+    .navbarDiv {
+        flex-wrap: wrap;
+        flex-direction: row;
+        height: 192px;
+    }
+    .navbarLeftRow{
+        height: 50%;
+        width: 100%;
+        margin: 0;
+        background-position: center;
+    }
+    .navbarRightRow{
+        height: 50%;
+        width: 100%;
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+    }
+}
+@media screen and (max-width: 768px) {
+    .navbarDiv {
+
+    }
+    .navbarLeftRow{
+        height: 50%;
+    }
+    .navbarRightRow{
+        height: 50%;
+
+    }
+    .navbarRightRowContent{
+        width: 100%;
+        gap: 20px;
+        font-size: 20px!important;
+    }
+}
