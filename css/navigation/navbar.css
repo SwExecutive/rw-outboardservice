@@ -50,10 +50,14 @@
     gap: 50px;
     align-items: center;
 }
-/*.navbarTitleSpace{*/
-/*    margin-right: 130px;*/
-/*}*/
-
+.navbarLink{
+    text-decoration: none;
+    text-underline: none;
+    color: white;
+}
+.navbarLink:visited{
+    color: white;
+}
 @media screen and (max-width: 1270px) {
     .navbarDiv {
         flex-wrap: wrap;
