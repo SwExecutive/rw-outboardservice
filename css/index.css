@@ -5,5 +5,309 @@ html,body{
     margin: 0;
 }
 #contentDiv{
+    display: flex;
+    flex-wrap: wrap;
+}
 
+.homeBannerDiv{
+    display: flex;
+    width: 100%;
+    height: 520px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: left;
+    align-content: center;
+    align-items: center;
+}
+
+.homeBannerDivContent{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 40%;
+    height: 50%;
+    margin-left: 90px;
+
+}
+
+.homeBannerDivContentText{
+    display: flex;
+    width: 100%;
+    height: 50%;
+    color: white;
+}
+
+.homeBannerDivContentButton{
+    display: flex;
+    width: 226px;
+    height: 46px;
+    border-radius: 9px;
+    background-color: #D12628;
+    text-decoration: none;
+    text-underline: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.homeBannerDivContentButton:active{
+    background-color: #a91718;
+
+}
+
+.onzeDienstenDiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 275px;
+    background-color: #F6F6F6;
+    justify-content: center;
+    gap: 20px;
+}
+.onzeDienstenTitleDiv{
+    display: flex;
+    width: 100%;
+    height: 108px;
+    color: black;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.onzeDienstenItemDiv{
+    display: flex;
+    width: 35%;
+    height: 50%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    align-content: space-between;
+}
+.onzeDienstenItemLogo{
+    display: flex;
+    height: 100%;
+    width: 20%;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.onzeDienstenTextDiv{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    height: 100%;
+    width: 70%;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+
+}
+.onzeDienstenTextTitle{
+    display: flex;
+    height: 30%;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: black;
+}
+.onzeDienstenTextContent{
+    display: flex;
+    height: 70%;
+    width: 100%;
+    align-content: flex-start;
+    align-items: flex-start;
+    justify-content: flex-start;
+    color: #676767;
+}
+
+.toelichtingContainer{
+    display: flex;
+    height: 498px;
+    width: 100%;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    background-color: white;
+}
+
+.toelichtingDiv{
+    display: flex;
+    height: 368px;
+    width: 1020px;
+    background-color: black;
+    border-radius: 5px;
+}
+.toelichtingItem{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: left;
+    align-content: space-between;
+    margin: 20px 30px 20px 30px;
+}
+.toelichtingTitle{
+    display: flex;
+    width: 60%;
+    height: 15%;
+    color: white;
+}
+
+.toelichtingSubtitle{
+    display: flex;
+    width: 60%;
+    height: 15%;
+    color: #D12628;
+}
+
+.toelichtingText{
+    display: flex;
+    width: 60%;
+    height: 55%;
+    color: white;}
+.toelichtingToolbar{
+    display: flex;
+    width: 60%;
+    height: 15%;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.toelichtingSlideIndicator{
+    display: flex;
+    height: 100%;
+    width: 88px;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+.toelichtingSlideIndicatorDot{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    background-color: white;
+    cursor: pointer;
+}
+.toelichtingSlideIndicatorDotActive{
+    background-color: #D12628;
+}
+.toelichtingImageContainer{
+    display: flex;
+    width: 40%;
+    height: 100%;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
+}
+.toelichtingImage{
+    display: flex;
+    height: 100%;
+    width: 360px;
+    background-color: red;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.waardenContainer{
+    display: flex;
+    width: 100%;
+    height: 333px;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    justify-content: center;
+    align-content: space-between;
+    align-items: center;
+}
+.waardenTitle{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.waardenItemContainer{
+    display: flex;
+    height: 50%;
+    width: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.waardenItem{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 20%;
+    height: 100%;
+    background-color: orange;
+    justify-content: flex-start;
+    align-content: flex-start;}
+.waardenItemLarge{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 35%;
+    height: 100%;
+    background-color: orange;
+    justify-content: flex-start;
+    align-content: flex-start;
+    overflow: visible;
+}
+
+.waardenItemLogo{
+    display: flex;
+    height: 100%;
+    width: 100px;
+    background-color: red;
+}
+
+.waardenItemTitle{
+    display: flex;
+    /*height: 30%;*/
+    /*width: 70%;*/
+    background-color: blue;
+}
+
+.waardenItemText{
+    display: flex;
+    /*height: 60%;*/
+    width: 60%;
+    color: #676767;
+
+}
+
+.waardenButtonContainer{
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+}
+
+.smallButton{
+    display: flex;
+    width: 144px;
+    height: 40px;
+    font-family: Roboto,sans-serif;
+    font-size: 20px;
+
+    border-radius: 9px;
+    background-color: #D12628;
+    text-decoration: none;
+    text-underline: none;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.smallButton:active{
+    background-color: #a91718;
 }
