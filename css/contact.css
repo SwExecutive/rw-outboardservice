@@ -127,7 +127,7 @@ html,body{
     align-items: center;
     align-content: center;
     justify-content: center;
-    background-size: 35px;
+    background-size: 30px;
     background-repeat: no-repeat;
     background-position: left;
     margin-left: 20px;
@@ -142,6 +142,7 @@ html,body{
     justify-content: flex-start;
 
 }
+
 .contactDetailItemTextContainer{
     display: flex;
     width: 80%;

@@ -19,6 +19,7 @@ html,body{
     justify-content: left;
     align-content: center;
     align-items: center;
+    background-image: url("../src/img/boat-repair-home-banner2.jpg");
 }
 
 .homeBannerDivContent{
@@ -353,6 +354,15 @@ html,body{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    transition: 0.5s;
+}
+
+.recentProject:hover{
+    width: 30%;
+    gap: 10px;
+    transition: 0.5s;
+    background-size: contain;
+
 }
 
 .reviewsContainer{
@@ -417,7 +427,7 @@ html,body{
     font-weight: 300;
 }
 
-.homeBannerDiv{
+.onderhoudBannerDiv{
     background-image: url("../src/img/boat-repair-home-banner2.jpg");
 }
 

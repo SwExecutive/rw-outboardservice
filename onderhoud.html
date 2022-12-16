@@ -2,9 +2,82 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" href="css/onderhoud.css" type="text/css"/>
+    <title>RW-outboardservice</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
 </head>
+<script>
+    $(function(){
+        $("#navbarDiv").load("ui/navigation/navbar.html");
+        $("#footerDiv").load("ui/navigation/footer.html");
+    });
+</script>
 <body>
+<div id="navbarDiv"></div>
+<div id="contentDiv">
+
+    <div class="onderhoudBannerDiv">
+        <div class="onderhoudBannerDivContent">
+            <div class="title onderhoudBannerDivContentTitle">
+                Onderhoud
+            </div>
+            <div class="onderhoudBannerDivContentIconContainer">
+                <div class="bodyText onderhoudBannerDivContentIconText">
+                    Advies
+                </div>
+                <div class="onderhoudBannerDivContentIcon">
+
+                </div>
+            </div>
+            <div class="bodyText onderhoudBannerDivContentAdvice">
+                Ons advies is om uw motor eens per jaar te voorzien van een onderhoudsbeurt.
+                Grotere motoren zijn uiteraard welkom.
+                Neem contact met ons op voor de prijzen en mogelijkheden.
+            </div>
+        </div>
+    </div>
+
+    <div class="onderhoudTypesContainer">
+        <div class="title onderhoudTypesTitle">ONDERHOUDSTYPES</div>
+        <div class="onderhoudsType">
+            <div class="subTitle onderhoudsTypeTitle">
+                Kleine onderhoudsbeurt
+            </div>
+            <div class="bodyText onderhoudsTypeText">
+                Voor een kleine- of grote beurt of andere werkzaamheden
+                aan uw motor of boot kunt u contact met ons opnemen om de mogelijkheden te bespreken.
+            </div>
+            <div class="onderhoudsTypeButtonContainer">
+                <a href="diensten.html" class="smallBodyText onderhoudsTypeButton">
+                    Meer informatie
+                </a>
+            </div>
+        </div>
+
+        <div class="onderhoudsType">
+            <div class="subTitle onderhoudsTypeTitle">
+                Grote onderhoudsbeurt
+            </div>
+            <div class="bodyText onderhoudsTypeText">
+                Voor een kleine- of grote beurt of andere werkzaamheden
+                aan uw motor of boot kunt u contact met ons opnemen om de mogelijkheden te bespreken.
+            </div>
+            <div class="onderhoudsTypeButtonContainer">
+                <a href="diensten.html" class="smallBodyText onderhoudsTypeButton">
+                    Meer informatie
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+</div>
+<div id="footerDiv"></div>
 
 </body>
 </html>
+
+<style>
+
+</style>
