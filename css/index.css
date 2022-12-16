@@ -170,7 +170,7 @@ html,body{
     color: white;}
 .toelichtingToolbar{
     display: flex;
-    width: 60%;
+    width: 55%;
     height: 15%;
     justify-content: space-between;
     align-items: flex-end;
@@ -236,7 +236,7 @@ html,body{
     width: 100%;
     flex-wrap: wrap;
     flex-direction: column;
-    gap: 20px;
+    gap: 10px;
     justify-content: center;
     align-content: center;
     align-items: center;
@@ -247,16 +247,14 @@ html,body{
     flex-direction: column;
     width: 20%;
     height: 100%;
-    background-color: orange;
     justify-content: flex-start;
     align-content: flex-start;}
 .waardenItemLarge{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    width: 35%;
+    width: 30%;
     height: 100%;
-    background-color: orange;
     justify-content: flex-start;
     align-content: flex-start;
     overflow: visible;
@@ -266,14 +264,16 @@ html,body{
     display: flex;
     height: 100%;
     width: 100px;
-    background-color: red;
+    background-size: 80px;
+    background-repeat: no-repeat;
+    background-position: top;
 }
 
 .waardenItemTitle{
     display: flex;
+    flex-wrap: wrap;
     /*height: 30%;*/
-    /*width: 70%;*/
-    background-color: blue;
+    width: auto;
 }
 
 .waardenItemText{
@@ -310,4 +310,145 @@ html,body{
 }
 .smallButton:active{
     background-color: #a91718;
+}
+.experienceContainer{
+    display: flex;
+    height: 885px;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.recenteProjectenContainer{
+    display: flex;
+    width: 100%;
+    height: 502px;
+    flex-wrap: wrap;
+
+}
+.recenteProjectenTitle{
+    display: flex;
+    color: black;
+    width: 100%;
+    height: 102px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.recenteProjectenItemsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 400px;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.recentProject{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.reviewsContainer{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 222px;
+
+}
+
+.reviewsTitle{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    color: black;
+}
+
+.reviewItemsContainer{
+    display: flex;
+    width: 100%;
+    height: 100px;
+    justify-content: space-evenly;
+    align-content: center;
+    align-items: center;
+}
+
+.reviewItem{
+    display: flex;
+    width: 20%;
+    height: 100%;
+    flex-wrap: wrap;
+    background-color: #F6F6F6;
+    padding: 10px;
+
+}
+.reviewTitle{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reviewStars{
+    display: flex;
+    width: 50%;
+    height: 30%;
+    color: black;
+    justify-content: flex-start;
+    align-items: center;
+}
+.reviewText{
+    display: flex;
+    width: 100%;
+    height: 70%;
+    color: #676767;
+    font-size: 20px;
+    font-family: "Neue Haas Grotesk Text Pro",sans-serif;
+    font-weight: 300;
+}
+
+.homeBannerDiv{
+    background-image: url("../src/img/boat-repair-home-banner2.jpg");
+}
+
+.onzeDienstenReparatie{
+    background-image: url("../src/icons/icons8-tools-ios-16-glyph/icons8-tools-90.png");
+}
+.onzeDienstenOnderhoud{
+    background-image: url("../src/icons/icons8-gear-material-sharp/icons8-gear-96.png");
+}
+.toelichtingImage{
+    background-image: url("../src/img/in-action-photo.png");
+}
+.kwaliteit{
+    background-image: url("../src/icons/checkmark.svg");
+}
+.pService{
+    background-image: url("../src/icons/icons8-group-task-material-filled/icons8-group-task-96.png");
+}
+.vakkundig{
+    background-image: url("../src/icons/icons8-task-completed-material-rounded/icons8-task-completed-96.png");
+}
+
+.rproject1{
+    background-image: url("../src/img/rproject1.png");
+}
+.rproject2{
+    background-image: url("../src/img/rproject2.png");
+}
+.rproject3{
+    background-image: url("../src/img/rproject3.png");
+}
+.rproject4{
+    background-image: url("../src/img/rproject4.png");
 }
