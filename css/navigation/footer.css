@@ -2,7 +2,7 @@
     display: flex;
     height: 285px;
     width: 100%;
-    background-color: red;
+    /*background-color: red;*/
     flex-wrap: wrap;
     flex-direction: column;
     padding: 0;
@@ -128,4 +128,24 @@
 }
 .footerConclusionButton:active{
     background-color: #a91718;
+}
+
+@media screen and (max-width: 1270px) {
+    .footerDiv{
+        height: 500px;
+    }
+.footerTopDiv{
+    height: 450px;
+    flex-wrap: wrap;
+}
+    .footerContentDiv{
+        height: 50%;
+        width: 40%;
+    }
+    .footerConlusionContainer{
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 768px) {
+
 }

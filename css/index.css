@@ -426,7 +426,84 @@ html,body{
     font-family: "Neue Haas Grotesk Text Pro",sans-serif;
     font-weight: 300;
 }
+@media screen and (max-width: 1270px) {
+    .homeBannerDivContent {
+        width: 60%;
+        height: 50%;
+    }
+    .onzeDienstenDiv{
+        height: 420px;
+    }
+    .onzeDienstenItemDiv{
+            height: 140px;
+            width: 80%;
+        align-content: flex-start;
 
+    }
+    .onzeDienstenItemLogo{
+        height: 50%;
+    }
+
+    .toelichtingContainer{
+        height: 600px;
+    }
+    .toelichtingDiv{
+        height: 400px;
+    }
+    .toelichtingTitle{
+        height: 25%;
+    }
+    .toelichtingText{
+        height: 45%;
+    }
+    .waardenContainer{
+        height: 660px;
+    }
+    .waardenItemContainer{
+        height: 70%;
+        flex-direction: row;
+    }
+    .waardenItem{
+        height: 30%;
+        width: 80%;
+    }
+    .waardenItemLarge{
+        height: 30%;
+        width: 80%;
+    }
+    .waardenButtonContainer{
+        height: 10%;
+    }
+
+    .experienceContainer{
+        height: 800px;
+    }
+    .recenteProjectenContainer{
+        height: 430px;
+    }
+    .recenteProjectenItemsContainer{
+        height: 300px;
+    }
+    .recentProject{
+        height: 80%;
+    }
+    .recentProject:hover{
+        height: 100%;
+        width: 30%;
+
+    }
+
+}
+@media screen and (max-width: 768px) {
+    .homeBannerDiv{
+        justify-content: center;
+    }
+    .homeBannerDivContent {
+        width: 80%;
+        height: 50%;
+        margin-left: 0px;
+    }
+}
 .onderhoudBannerDiv{
     background-image: url("../src/img/boat-repair-home-banner2.jpg");
 }

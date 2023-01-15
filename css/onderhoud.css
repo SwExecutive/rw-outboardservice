@@ -154,3 +154,15 @@ html,body{
     background-color: #a91718;
 
 }
+
+@media screen and (max-width: 1270px) {
+.onderhoudTypesContainer{
+    height: 800px;
+}
+    .onderhoudsType{
+        width: 700px;
+    }
+}
+@media screen and (max-width: 768px) {
+
+}
