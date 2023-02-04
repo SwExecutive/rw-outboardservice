@@ -19,7 +19,7 @@ html,body{
     justify-content: left;
     align-content: center;
     align-items: center;
-    background-image: url("../src/img/boat-repair-home-banner2.jpg");
+    background-image: url("../src/img/dsc_editted/DSC_0247.jpg");
 }
 
 .homeBannerDivContent{
@@ -492,7 +492,15 @@ html,body{
         width: 30%;
 
     }
-
+    .reviewItem{
+        width: 25%;
+    }
+    .reviewTitle{
+        width: 90%;
+    }
+    .reviewStars{
+        width: 10%;
+    }
 }
 @media screen and (max-width: 768px) {
     .homeBannerDiv{

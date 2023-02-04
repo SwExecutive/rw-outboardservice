@@ -13,19 +13,25 @@ html,body{
     width: 100%;
     height: 520px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: right;
+    background-size: 40%;
     justify-content: left;
     align-content: center;
     align-items: center;
     background-color: #F6F6F6;
-    /*background-image: url("../src/img/boat-cruising.jpg");*/
+    background-image: url("../src/img/dsc_editted/DSC_0231d.jpg");
+
+}
+.overonsBannerDivRight{
+    background-position: left;
+    justify-content: right;
+
 }
 
 .overonsBannerDivContent{
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
+    width: 50%;
     height: 50%;
     margin-left: 90px;
     align-content: flex-start;
@@ -33,15 +39,23 @@ html,body{
     gap: 20px;
     flex-direction: column;
 }
-
+.overonsBannerDivContentRight{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    height: 50%;
+    margin-right: 90px;
+    align-content: flex-start;
+    justify-content: flex-start;
+    gap: 20px;
+    flex-direction: column;
+}
 .overonsBannerDivContentTitle{
     display: flex;
     width: 100%;
     height: 20%;
     color: black;
     border-radius: 9px;
-    /*justify-content: center;*/
-    /*align-items: center;*/
 }
 .overonsBannerDivContentIconContainer{
     display: flex;
@@ -75,10 +89,8 @@ html,body{
 }
 .overonsBannerDivContentAdvice{
     display: flex;
-    height: 25%;
-    width: 70%;
-    /*background-color: white;*/
+    height: 50%;
+    width: 100%;
     border-radius: 5px;
-    align-items: center;
-    /*box-shadow: 0 10px 20px rgb(0 0 0 / 12%);*/
+    align-items: flex-start;
 }
