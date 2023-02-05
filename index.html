@@ -243,4 +243,35 @@
         $(".toelichtingSubtitle").empty().text(diensten[2][0]);
         $(".toelichtingText").empty().text(diensten[2][1]);
     }
+
+    function homeSlideShow(i) {
+        setTimeout(function() {
+            console.log('hello');
+            i++;
+            if (i < diensten.length) {
+                homeSlideShow(i);
+            }
+            if (i === diensten.length) {
+                i=0;
+                console.log('loop finished, restarting!');
+                homeSlideShow(i);
+            }
+            switch (i){
+                case 0:
+                    clickDot1();
+                    break;
+                case 1:
+                    clickDot2();
+                    break;
+                case 2:
+                    clickDot3();
+                    break;
+            }
+
+        }, 7000)
+    }
+
+    homeSlideShow(0);
+
+
 </script>
