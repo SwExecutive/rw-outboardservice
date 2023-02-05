@@ -74,10 +74,126 @@ html,body{
 }
 .dienstenBannerDivContentAdvice{
     display: flex;
-    height: 25%;
+    height: 70%;
     width: 70%;
     /*background-color: white;*/
     border-radius: 5px;
     align-items: center;
     /*box-shadow: 0 10px 20px rgb(0 0 0 / 12%);*/
+}
+.dienstenDiv{
+    display: flex;
+    height: 3000px;
+    width: 100%;
+    background-color: white;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.dienstDiv{
+    display: flex;
+    height: 368px;
+    width: 1100px;
+    /*background-color: #F6F6F6;*/
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    border-radius: 5px;
+    color: #D12628;
+    flex-wrap: wrap;
+}
+.dienstDividerDiv{
+    display: flex;
+    height: 328px;
+    /*width: 1960px;*/
+    border-radius: 5px;
+    color: white;
+    flex-wrap: wrap;
+    margin: 20px 30px 20px 30px;
+    /*gap: 30px;*/
+    /*align-items: flex-end;*/
+    justify-content: space-between;
+}
+.dienstTitle{
+    display: flex;
+    height: 20%;
+    width: 80%;
+    color: #D12628;
+    align-content: center;
+    align-items: center;
+}
+.dienstMainText{
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+}
+.dienstDetailTitle{
+    display: flex;
+    width: 70%;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+.dienstDetailText{
+    display: flex;
+    flex-wrap: wrap;
+    height: 30%;
+    width: 70%;
+    color: white;
+    /*color: black;*/
+    /*align-content: center;*/
+    align-items: center;
+    justify-content: left;
+    text-align: left;
+    overflow: auto;
+    /*border: 2px solid #D12628;*/
+
+}
+/* width */
+.dienstDetailText::-webkit-scrollbar {
+    width: 5px;
+}
+
+/* Track */
+.dienstDetailText::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px #ffffff;
+}
+
+/* Handle */
+.dienstDetailText::-webkit-scrollbar-thumb {
+    background: #D12628;
+}
+
+/* Handle on hover */
+.dienstDetailText::-webkit-scrollbar-thumb:hover {
+    background: #b30000;
+}
+.dienstContactButtonContainer{
+    display: flex;
+    height: 30%;
+    width: 25%;
+    justify-content: end;
+    align-items: flex-end;
+}
+.dienstContactButton{
+    display: flex;
+    width: 226px;
+    height: 46px;
+    border-radius: 9px;
+    background-color: #D12628;
+    text-decoration: none;
+    text-underline: none;
+    color: white;
+    font-size: 20px;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+.dienstContactButton:active{
+    background-color: #a91718;
+
 }

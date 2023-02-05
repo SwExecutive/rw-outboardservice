@@ -18,31 +18,40 @@ html,body{
     justify-content: left;
     align-content: center;
     align-items: center;
-    background-color: #F6F6F6;
+    background-color: white;
+
+    /*background-color: #F6F6F6;*/
     background-image: url("../src/img/dsc_editted/DSC_0231d.jpg");
 
 }
-.overonsBannerDivRight{
+
+.overonsBannerDivTwo{
+    background-image: url("../src/img/dsc/DSC_0295d.JPG");
+
     background-position: left;
     justify-content: right;
+    /*background-color: white;*/
+    background-color: #F6F6F6;
 
 }
-
+.overonsBannerDivThree{
+    background-image: url("../src/img/dsc/DSC_0157.JPG");
+}
 .overonsBannerDivContent{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
-    height: 50%;
+    width: 40%;
+    height: 60%;
     margin-left: 90px;
     align-content: flex-start;
     justify-content: flex-start;
     gap: 20px;
     flex-direction: column;
 }
-.overonsBannerDivContentRight{
+.overonsBannerDivContentTwo{
     display: flex;
     flex-wrap: wrap;
-    width: 50%;
+    width: 40%;
     height: 50%;
     margin-right: 90px;
     align-content: flex-start;
@@ -56,6 +65,10 @@ html,body{
     height: 20%;
     color: black;
     border-radius: 9px;
+}
+.overonsBannerDivContentTitleThree{
+    width: 100%;
+    height: 20%;
 }
 .overonsBannerDivContentIconContainer{
     display: flex;
@@ -89,8 +102,17 @@ html,body{
 }
 .overonsBannerDivContentAdvice{
     display: flex;
-    height: 50%;
+    height: 60%;
     width: 100%;
     border-radius: 5px;
     align-items: flex-start;
+}
+@media screen and (max-width: 1270px) {
+    .overonsBannerDivContentTitleThree{
+        width: 100%;
+        height: 30%;
+    }
+}
+@media screen and (max-width: 768px) {
+
 }

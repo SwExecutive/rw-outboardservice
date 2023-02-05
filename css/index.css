@@ -138,7 +138,7 @@ html,body{
 .toelichtingDiv{
     display: flex;
     height: 368px;
-    width: 1020px;
+    width: 1100px;
     background-color: black;
     border-radius: 5px;
 }
@@ -179,7 +179,7 @@ html,body{
 .toelichtingSlideIndicator{
     display: flex;
     height: 100%;
-    width: 88px;
+    width: 100px;
     justify-content: space-between;
     align-items: flex-end;
 }
@@ -192,6 +192,11 @@ html,body{
     cursor: pointer;
 }
 .toelichtingSlideIndicatorDotActive{
+    display: flex;
+    height: 30px;
+    width: 30px;
+    border-radius: 30px;
+    cursor: pointer;
     background-color: #D12628;
 }
 .toelichtingImageContainer{
