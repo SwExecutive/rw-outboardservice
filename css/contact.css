@@ -119,6 +119,9 @@ html,body{
     border-radius: 5px;
     /*gap: 20px;*/
     box-shadow: 0 10px 20px rgb(0 0 0 / 12%);
+    text-decoration: none;
+    text-underline: none;
+    color: black;
 }
 .contactDetailItemIcon{
     display: flex;
@@ -154,7 +157,7 @@ html,body{
 .contactDetailItemTijden{
     display: flex;
     height: 100%;
-    width: 30%;
+    width: 32%;
     flex-wrap: wrap;
     /*background-color: orange;*/
     align-items: center;
@@ -242,7 +245,7 @@ html,body{
         width: 100%;
     }
     .openingstijdenDetailItemTijden{
-        width: 30%;
+        width: 32%;
     }
 }
 @media screen and (max-width: 768px) {
