@@ -58,7 +58,7 @@
 .navbarLink:visited{
     color: white;
 }
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1285px) {
     .navbarDiv {
         flex-wrap: wrap;
         flex-direction: row;

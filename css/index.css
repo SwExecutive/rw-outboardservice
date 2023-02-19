@@ -446,7 +446,7 @@ html,body{
     font-family: "Neue Haas Grotesk Text Pro",sans-serif;
     font-weight: 300;
 }
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1285px) {
     .homeBannerDivContent {
         width: 60%;
         height: 50%;
@@ -530,6 +530,15 @@ html,body{
         width: 80%;
         height: 50%;
         margin-left: 0px;
+    }
+    .toelichtingTitle{
+        font-size: 35px!important;
+    }
+    .toelichtingSubtitle{
+        font-size: 25px!important;
+    }
+    .toelichtingText{
+        font-size: 18px!important;
     }
 }
 .onderhoudBannerDiv{

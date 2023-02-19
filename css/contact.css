@@ -184,7 +184,7 @@ html,body{
 
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1280px) {
 .contactDetailsDiv{
     height: 800px;
     flex-direction: column;

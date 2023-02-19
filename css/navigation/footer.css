@@ -130,7 +130,7 @@
     background-color: #a91718;
 }
 
-@media screen and (max-width: 1270px) {
+@media screen and (max-width: 1280px) {
     .footerDiv{
         height: 500px;
     }
