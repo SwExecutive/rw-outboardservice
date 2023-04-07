@@ -83,13 +83,16 @@ html,body{
 }
 .dienstenDiv{
     display: flex;
-    height: 3000px;
+    /* height: 3000px; */
     width: 100%;
     background-color: white;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: center;
     align-content: space-evenly;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .dienstDiv{
@@ -100,10 +103,40 @@ html,body{
     background-color: black;
     justify-content: center;
     align-items: center;
-    align-content: center;
+    align-content: flex-start;
     border-radius: 5px;
     color: #D12628;
     flex-wrap: wrap;
+    transition: 0.5s;
+}
+.dienstDivDetails{
+    display: flex;
+    width: 100%;
+    height: auto;
+    /*background-color: green;*/
+    visibility: hidden;
+    margin-top: 20px;
+
+}
+.containsWerkzaamheden:hover{
+    height: 700px;
+
+}
+.containsWerkzaamheden:hover .dienstDivDetails{
+    display: flex;
+    transition: 1s;
+    visibility: visible;
+    animation-delay: 1s;
+    flex-wrap: wrap;
+    width: 100%;
+    color: white;
+    /*color: black;*/
+    /*align-content: center;*/
+    align-items: flex-end;
+    justify-content: left;
+    text-align: left;
+    overflow: auto;
+    /*border: 2px solid #D12628;*/
 }
 .dienstDividerDiv{
     display: flex;
@@ -143,15 +176,14 @@ html,body{
     flex-wrap: wrap;
     height: 30%;
     width: 70%;
-    color: white;
+    color: #D12628;
     /*color: black;*/
     /*align-content: center;*/
-    align-items: center;
+    align-items: flex-end;
     justify-content: left;
     text-align: left;
     overflow: auto;
     /*border: 2px solid #D12628;*/
-
 }
 /* width */
 .dienstDetailText::-webkit-scrollbar {
